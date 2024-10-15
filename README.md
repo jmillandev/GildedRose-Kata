@@ -55,3 +55,6 @@ There are instructions in the [TextTest Readme](../texttests/README.md) for sett
     interpreter:python
 
 
+## Notes
+
+This is a kind of fork of [GildedRose-Refactoring-Kata](https://github.com/emilybache/GildedRose-Refactoring-Kata)
