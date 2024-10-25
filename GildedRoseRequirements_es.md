@@ -23,6 +23,7 @@ Bastante simple, ¿no? Bueno, ahora es donde se pone interesante:
 - La calidad de un artículo (`Quality`) no puede superar `50`
 - El artículo `Sulfuras`, es un artículo legendario, no necesitamos venderlo en ninguna fecha (`SellIn`) y tampoco se degrada en (`Quality`)
 - El artículo "Entrada al Backstage" (`Backstage passes`), incrementa su valor (`Quality`) a medida que acerca la fecha del concierto (`SellIn`)
+  - Si es mayor a 10 aumenta 1
   - Si faltan `10` días o menos para el concierto, la calidad (`Quality`) se incrementa en `2` unidades
   - Si faltan `5` días o menos, la calidad (`Quality`) se incrementa en `3` unidades
   - Una vez pasada fecha del concierto (`SellIn`), la entrada pierde su valor (`Quality`) y cae a `0`
